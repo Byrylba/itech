@@ -1,13 +1,15 @@
 .link {
     color: var(--black-color);
     transition: var(--transition);
-    font-weight: bold;
-
-    &:hover, &:active, &:focus {
-        color: var(--violett-color);
+    font-weight: 700;
+  
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--violett-color);
     }
-}
-
-.link_active{
+  }
+  
+  .link_active {
     color: var(--violett-color);
-}
+  }
